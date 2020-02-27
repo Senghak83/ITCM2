@@ -2,6 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="edu.itc.itcm2">
 
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -9,6 +11,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <activity android:name=".retrofit_recyler.LoadToRecyler"></activity>
+        <activity android:name=".Retrofit_Recyler.Retro_Recycler" />
+        <activity android:name=".Retrofit_1.LoadData" />
+        <activity android:name=".Retrolfit_.Retrol_Report" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
